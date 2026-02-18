@@ -1,11 +1,39 @@
 # Mac Setup
- What I use to setup a Mac
+ What I use to setup a Mac.
 
 # Table of Contents
 - [Install](#install)
     - [Xcode](#xcode)
     - [iTerm 2](#iterm-2)
-    - TODO, add rest
+    - [Mac: See Hidden Files](#mac-see-hidden-files)
+    - [VS Code](#vs-code)
+    - [Github Desktop](#github-desktop)
+    - [Docker Desktop](#docker-desktop)
+    - [Homebrew](#homebrew)
+    - [Install Bash with Homebrew](#install-bash-with-homebrew)
+    - [ZSH with Brew](#zsh-with-brew)
+    - [Font](#font)
+    - [Zinit](#zinit)
+    - [~/.vimrc File](#vimrc-file)
+    - [~/.p10k.zsh File](#p10kzsh-file)
+    - [~/.zshrc File](#zshrc-file)
+    - [Github CLI](#github-cli)
+    - [LSD](#lsd)
+    - [Fun](#fun)
+    - [DevUtils](#devutils)
+    - [HTTPie](#httpie)
+    - [Beekeeper Studio](#beekeeper-studio)
+    - [pyenv](#pyenv)
+    - [uv](#uv)
+    - [Commands](#commands)
+- [Data Science Additionals](#data-science-additionals)
+    - [Package Manager](#package-manager)
+        - [Micromamba](#micromamba)
+        - [uv](#uv-1)
+    - [Jupyter](#jupyter)
+- [Other, Not Organized](#other-not-organized)
+    - [Change Apple Emoji for JoyPixels](#change-apple-emoji-for-joypixels)
+    - [Packages for Python Projects](#packages-for-python-projects)
 
 
 # Install
