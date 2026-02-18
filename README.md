@@ -261,14 +261,12 @@ Check installations to see if they have different Intel and Apple packages.
     - `$ pyenv install 3.x.x`
     - `$ pyenv global 3.x.x`
 
-## Poetry
-- Python package, dependency, environment management
-- [Website][poetry-website]
-- [Installation][poetry-install]
-    - Add Poetry install location to your PATH in .zshrc file:
-        - `export PATH="$HOME/.local/bin:${PATH}"`
-- Poetry defaults to create virtual environments in a central location, to create inside
-    the project in a .venv folder, set `poetry config virtualenvs.in-project true`
+## uv
+- Fast Python package and project manager (installer, resolver, venv); by Astral (Ruff)
+- [Website][uv-website]
+- [Installation][uv-install]
+    - macOS/Linux: `brew install uv`
+- Creates a `.venv` in the project by default.
 
 ## Commands
 - Clear python pycache:
@@ -279,8 +277,8 @@ Check installations to see if they have different Intel and Apple packages.
 ## Package Manager
 
 ### Micromamba
-- Conda, from Anaconda, is a package installer. Poetry is another package installer,
-but Poetry is only Python. Conda can do python and non-python packages which is what
+- Conda, from Anaconda, is a package installer. uv is another package installer,
+but uv is only Python. Conda can do python and non-python packages which is what
 data science needs because there are some packages that are not python that are used
 in data science. Mamba is a replacement for Conda as it is faster.
 - Install Micromamba, which a small self-contained mamba without conda bloat.
@@ -293,9 +291,9 @@ channels:
     - conda-forge
 ```
 
-### Poetry
-- Another option is to use Poetry.
-- When using Poetry with Data Science libraries, some libraries or functions, like
+### uv
+- Another option is to use uv.
+- When using uv with Data Science libraries, some libraries or functions, like
 ARIMA, will rely on XGBoost. XGBoost relies on OpenMP for parallel processing. On
 macOS, the OpenMP runtime library (libomp.dylib) isn't installed by default. Install
 it with: `brew install libomp`
@@ -346,5 +344,5 @@ black, isort, pytest, pytest-cov, pre-commit
 [beekeeper-studio]: https://www.beekeeperstudio.io/
 [pyenv-github]: https://github.com/pyenv/pyenv
 [pyenv-build-env]: https://github.com/pyenv/pyenv#install-python-build-dependencies
-[poetry-website]: https://python-poetry.org/
-[poetry-install]: https://python-poetry.org/docs/master/#installing-with-the-official-installer
+[uv-website]: https://docs.astral.sh/uv/
+[uv-install]: https://docs.astral.sh/uv/getting-started/installation/
