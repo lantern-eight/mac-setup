@@ -1,88 +1,77 @@
-// VS Code settings
+// VS Code/Cursor settings
 
 {
-    "terminal.integrated.profiles.osx": {
-        "bash": {
-            "path": "bash",
-            "args": [
-                "-l"
-            ],
-            "icon": "terminal-bash"
-        },
-        "zsh": {
-            "path": "zsh",
-            "args": [
-                "-l"
-            ]
-        },
-        "fish": {
-            "path": "fish",
-            "args": [
-                "-l"
-            ]
-        },
-        "tmux": {
-            "path": "tmux",
-            "icon": "terminal-tmux"
-        },
-        "pwsh": {
-            "path": "pwsh",
-            "icon": "terminal-powershell"
-        },
-        "zsh (2)": {
-            "path": "/usr/local/bin/zsh"
-        }
-    },
     "terminal.external.osxExec": "iterm.app",
+    "terminal.integrated.scrollback": 9999999999999,
+    "terminal.integrated.persistentSessionScrollback": 9999999999999,
+    "terminal.integrated.shellIntegration.history": 9999999999999,
     "terminal.integrated.defaultProfile.osx": "zsh (2)",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
     "editor.rulers": [
-    88,
-    120
+
+        88,
+        120
     ],
     "workbench.colorCustomizations": {
-
         "editor.selectionBackground": "#00a6ff35",
         "editor.selectionHighlightBackground": "#00fbff0f",
         "editor.selectionHighlightBorder": "#00fbff51",
         "editor.lineHighlightBackground": "#1073cf00",
         "editor.lineHighlightBorder": "#00eeff62"
     },
-    "editor.wordWrap": "off",
-    "diffEditor.wordWrap": "off",
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastLightColorTheme": "Default Light Modern",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "window.autoDetectColorScheme": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "variable.other.table.sql",
+                    "entity.name.type.table.sql",
+                    "support.class.sql",
+                    "variable.other.object.sql",
+                    "constant.other.database-name.sql"
+                ],
+                "setttings": {
+                    "foreground": "#bb8cb3"
+                }
+            }
+        ]
+    },
     "workbench.iconTheme": "material-icon-theme",
-    "git.confirmSync": false,
     "rainbowString": {
-            "extensions": [
-                ".cs",
-                ".csx",
-                ".fs",
-                ".fsx",
-                ".js",
-                ".jsx",
-                ".ts",
-                ".tsx",
-                ".csproj",
-                ".fsproj",
-                ".py"
-            ]
+        "extensions": [
+            ".cs",
+            ".csx",
+            ".fs",
+            ".fsx",
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx",
+            ".csproj",
+            ".fsproj",
+            ".py",
+            ".ipynb"
+        ]
     },
     "explorer.confirmDelete": false,
-    "editor.renderWhitespace": "all",
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.inlayHints.enabled": "off",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    "editor.minimap.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
     "explorer.confirmDragAndDrop": false,
-    "gitlens.heatmap.toggleMode": "window",
-    "gitlens.hovers.annotations.over": "annotation",
-    "workbench.colorTheme": "Default Dark+",
-    // "editor.tokenColorCustomizations": {
-    //     "textMateRules": [
-    //         {
-    //             "scope": [
-    //                 "string.quoted.docstring.multi.python"
-    //             ],
-    //             "settings": {
-    //                 "fontStyle": "italic",
-    //                 "foreground": "#767676"
+}    //                 "foreground": "#767676"
     //             }
     //         },
     //         // {
